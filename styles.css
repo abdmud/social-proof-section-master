@@ -3,3 +3,65 @@
 body {
     font-family: 'League Spartan', sans-serif;
 }
+
+/* PAGE CONTAINER */
+.page-cont {
+    border: solid 1px red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TOP SECTION CONTAINER */
+.top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 900px;
+    border: solid 1px black;
+}
+
+/* TOP LEFT TEXT CONTAINER */
+.left {
+    width: 330px;
+}
+
+.left h1 {
+    font-size: 38px;
+}
+
+.left h1,
+.left p {
+    color: hsl(300, 43%, 22%);
+}
+
+/* TOP RIGHT CONTAINER */
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.star-review {
+    background-color: hsl(300, 24%, 96%);
+    height: 40px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.star-review p {
+    height: 15px;
+    gap: 10px;
+}
+
+/* BOTTOM SECTION CONTAINER */
+.bottom {
+    border: solid 1px purple;
+    width: 900px;
+    margin-top: 2%;
+}
