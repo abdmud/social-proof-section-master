@@ -73,7 +73,8 @@ body {
 .reviews-p,
 .report-p,
 .best-tech-p {
-   
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);;
 }
 
 /* BOTTOM SECTION CONTAINER */
