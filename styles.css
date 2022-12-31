@@ -101,6 +101,16 @@ body {
     background-color: hsl(300, 43%, 22%);
 }
 
+.user {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10%;
+}
+
+.user img {
+    align-items: center;
+}
+
 .name, .message {
     color: white;
 }
