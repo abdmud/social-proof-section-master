@@ -21,11 +21,13 @@ body {
     grid-template-columns: 1fr 1fr;
     width: 900px;
     border: solid 1px black;
+    margin-top: 2%;
 }
 
 /* TOP LEFT TEXT CONTAINER */
 .left {
     width: 330px;
+    padding-left: 5%;
 }
 
 .left h1 {
@@ -41,6 +43,7 @@ body {
 .right {
     display: flex;
     flex-direction: column;
+    margin-top: 9%;
 }
 
 .star-review {
@@ -49,14 +52,28 @@ body {
     width: 350px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border-radius: 10px;
+    margin-top: 3%;
 }
 
+.report-guru {
+    margin-left: 5%;
+}
+
+.best-tech {
+    margin-left: 10%;
+}
 .star-review p {
     height: 15px;
     gap: 10px;
+}
+
+.reviews-p,
+.report-p,
+.best-tech-p {
+   
 }
 
 /* BOTTOM SECTION CONTAINER */
