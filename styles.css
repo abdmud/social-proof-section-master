@@ -2,7 +2,7 @@
 
 body {
     font-family: 'League Spartan', sans-serif;
-    background-image: url(./images/bg-pattern-top-desktop.svg);
+
 }
 
 /* PAGE CONTAINER */
@@ -141,4 +141,39 @@ body {
 
 .card03 {
     margin-top: 10%;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 375px) {
+    .page-cont {
+        width: 350px;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+        text-align: center;
+    }
+
+    .right {
+        margin-top: 0;
+    }
+
+    .star-review {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+    }
+
+    .stars {
+        margin-top: 5%;
+    }
+
+    .report-guru,
+    .best-tech {
+        margin-left: 0;
+    }
 }
