@@ -2,6 +2,7 @@
 
 body {
     font-family: 'League Spartan', sans-serif;
+    background-image: url(./images/bg-pattern-top-desktop.svg);
 }
 
 /* PAGE CONTAINER */
@@ -81,10 +82,11 @@ body {
 .bottom {
     border: solid 1px purple;
     width: 900px;
-    height: 300px;
+    height: 350px;
     margin-top: 2%;
     display: flex;
     justify-content: center;
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
 }
 
 .div-card-container {
@@ -96,7 +98,7 @@ body {
 
 .card {
     width: 350px;
-    height: 200px;
+    height: 230px;
     border-radius: 10px;
     background-color: hsl(300, 43%, 22%);
 }
@@ -107,9 +109,19 @@ body {
     gap: 10%;
 }
 
+.user, .message {
+    width: 200px;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
 .user img {
     margin-top: 7%;
     margin-left: 2%;
+}
+
+.message {
+    margin-top: -3%;
 }
 
 .name, .message {
@@ -118,10 +130,19 @@ body {
 
 .verified {
     color: hsl(333, 80%, 67%);
+    margin-top: -10%;
 }
 
 .img-review {
     border-radius: 50px;
     height: 40px;
     width: 40px;
+}
+
+.card02 {
+    margin-top: 5%;
+}
+
+.card03 {
+    margin-top: 10%;
 }
