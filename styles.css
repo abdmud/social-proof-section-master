@@ -108,7 +108,8 @@ body {
 }
 
 .user img {
-    align-items: center;
+    margin-top: 7%;
+    margin-left: 2%;
 }
 
 .name, .message {
